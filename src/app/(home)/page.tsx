@@ -4,6 +4,13 @@ import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Textarea } from "@/components/ui/textarea";
 
+/**
+ * Renders a static home page displaying various UI components for demonstration.
+ *
+ * The page includes a button, input field, progress bar, textarea, and checkbox arranged in a vertical layout.
+ *
+ * @returns A JSX element containing the home page UI.
+ */
 export default function Home() {
   return (
     <div className="p-4">
