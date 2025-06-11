@@ -6,11 +6,11 @@ import * as ProgressPrimitive from "@radix-ui/react-progress"
 import { cn } from "@/lib/utils"
 
 /**
- * Displays a horizontal progress bar with customizable styling and progress value.
+ * Renders a horizontal progress bar whose filled portion reflects the given percentage value.
  *
- * Renders a styled progress bar using Radix UI primitives, where the filled portion reflects the {@link value} prop as a percentage. If {@link value} is undefined, the progress bar appears empty.
+ * The progress bar uses Radix UI primitives and supports custom styling via the {@link className} prop. The {@link value} prop determines the progress as a percentage from 0 to 100; if omitted, the bar appears empty.
  *
- * @param value - The progress percentage (0–100). If omitted, the bar is empty.
+ * @param value - Progress percentage (0–100). If undefined, the bar is empty.
  */
 function Progress({
   className,
